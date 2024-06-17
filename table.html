@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การสร้างตาราง</title>
+</head>
+<body>
+        ตาราง 3 แถว 2 คอลัมน์
+        <table border="1">
+                <tr><td>11</td><td>12</td></tr>
+                <tr><td>21</td><td>22</td></tr>
+                <tr><td>31</td><td>32</td></tr>
+        </table>
+        <br><br>
+        ตาราง 2 แถว 3 คอลัมน์ และกำหนดขนาดตาราง
+        <table border="1" width="300">
+            <tr><td>11</td><td>12</td><td>13</td></tr>
+            <tr><td>21</td><td>22</td><td>23</td></tr>
+        </table>
+        <br><br>
+
+        ตาราง 2 แถว 3 คอลัมน์ และกำหนดขนาดตาราง
+        <table border="1" width="300">
+            <tr><td>11</td><td>12</td><td>13</td></tr>
+            <tr><td>21</td><td>22</td><td>23</td></tr>
+        </table>
+        <br><br>
+
+        ตาราง 3 แถว 3 คอลัมน์ ปรับแต่งขอบ และกำหนดขนาดตาราง
+        <table border="1" cellspacing="0" width="400">
+            <tr><td>11</td><td>12</td><td>13</td></tr>
+            <tr><td>21</td><td>22</td><td>23</td></tr>
+            <tr><td>31</td><td>32</td><td>33</td></tr>
+        </table>
+        <br><br>
+
+        ตาราง 3 แถว 3 คอลัมน์ ปรับแต่งขอบ กำหนดขนาดตาราง จัดตำแหน่งเนื้อหาแนวนอนในตาราง
+        <table border="1" cellspacing="0" width="400">
+            <tr><td>11</td><td align="center">12</td><td>13</td></tr>
+            <tr><td>21</td><td align="center">22</td><td>23</td></tr>
+            <tr><td align="right">31</td><td>32</td><td align="right">33</td></tr>
+        </table>
+        <br><br>
+
+        ตาราง 3 แถว 3 คอลัมน์ ปรับแต่งขอบ กำหนดขนาดตาราง จัดตำแหน่งเนื้อหาแนวนอนในตาราง สีพื้นหลังเซลล์
+        <table border="1" cellspacing="0" width="400">
+            <tr><td bgcolor="yellow">11</td><td align="center">12</td><td>13</td></tr>
+            <tr><td>21</td><td align="center">22</td><td>23</td></tr>
+            <tr><td align="right">31</td><td>32</td><td align="right" bgcolor="pink">33</td></tr>
+        </table>
+        <br><br>
+
+        กำหนดขนาดตาราง จัดตำแหน่งเนื้อหาแนวนอนในตาราง สีพื้นหลังเซลล์ กำหนดขนาดความกว้างเซลล์
+        <table border="1" cellspacing="0" width="400">
+            <tr><td bgcolor="yellow">11</td><td align="center">12</td><td>13</td></tr>
+            <tr><td>21</td><td align="center">22</td><td>23</td></tr>
+            <tr><td align="right">31</td><td>32</td><td align="right" bgcolor="pink">33</td></tr>
+            <tr><td width="50">41</td><td>42</td><td height="100" align="center">43</td></tr>
+        </table>
+        <br><br>
+
+        กำหนดขนาดตาราง จัดตำแหน่งเนื้อหาแนวนอนและแนวตั้งในตาราง สีพื้นหลังเซลล์ กำหนดขนาดความกว้างเซลล์
+        <table border="1" cellspacing="0" width="400">
+            <tr><td bgcolor="yellow">11</td><td align="center">12</td><td>13</td></tr>
+            <tr><td>21</td><td align="center">22</td><td>23</td></tr>
+            <tr><td align="right">31</td><td>32</td><td align="right" bgcolor="pink">33</td></tr>
+            <tr><td width="50" valign="bottom">41</td><td valign="top">42</td><td height="100" align="center">43</td></tr>
+        </table>
+        <br><br>
+
+        <p align="center">แทรกภาพและเนื้อหาในตาราง และจัดตำแหน่งตัวตาราง</p>
+        <table border="1" cellspacing="0" width="400" align="center">
+            <tr><td width="200" align="center"><img src="flower.png" width="150"></td><td valign="top" width="200" bgcolor="pink"><font color="red">1.ทานตะวันสีแดง</font><br><font color="yellow">2.ทานตะวันสีเหลือง</font></td></tr>
+            <tr><td valign="bottom" align="right">3.กล้วยไม้ป่าสีดำ</td><td  align="center"><img src="spring.png" width="105"></td></tr>
+        </table>
+</body>
+</html>
