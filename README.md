@@ -1,3 +1,3 @@
 ﻿#การแทรกตาราง
  
-คลิกดูผลลัพธ์ https://kruauu.chainatpit.ac.th/eleaning/html/table.html
+คลิกดูผลลัพธ์ https://khunkru.net/eleaning/html/table.html
